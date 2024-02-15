@@ -1,0 +1,36 @@
+VM Spindle data (1356, 16) successfully at 2024-02-15 12:00:19
+VM Spindle data (1356, 16) successfully at 2024-02-15 12:06:18
+VM Spindle data (1356, 16) successfully at 2024-02-15 12:12:17
+VM Spindle data (1356, 16) successfully at 2024-02-15 12:18:17
+VM Spindle data (1356, 16) successfully at 2024-02-15 12:24:25
+VM Spindle data (1356, 16) successfully at 2024-02-15 12:30:17
+VM Spindle data (1356, 16) successfully at 2024-02-15 12:36:16
+VM Spindle data (1356, 16) successfully at 2024-02-15 12:42:17
+VM Spindle data (1356, 16) successfully at 2024-02-15 12:48:17
+VM Spindle data (1356, 16) successfully at 2024-02-15 12:54:23
+VM Spindle data (1356, 16) successfully at 2024-02-15 13:00:17
+VM Spindle data (1356, 16) successfully at 2024-02-15 13:06:18
+VM Spindle data (1356, 16) successfully at 2024-02-15 13:12:16
+VM Spindle data (1356, 16) successfully at 2024-02-15 13:18:17
+VM Spindle data (1356, 16) successfully at 2024-02-15 13:24:22
+Traceback (most recent call last):
+  File "/home/hendrik/hendrik/mypython/vm/vmdata/spindle.py", line 110, in <module>
+    df1 = data_spindle('1',dateshift)
+  File "/home/hendrik/hendrik/mypython/vm/vmdata/spindle.py", line 93, in data_spindle
+    df = get_dataframe(data_soup)
+  File "/home/hendrik/hendrik/mypython/vm/vmdata/spindle.py", line 72, in get_dataframe
+    rows= table1.find("tbody").find_all("tr")
+AttributeError: 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "/home/hendrik/hendrik/mypython/vm/vmdata/spindle.py", line 110, in <module>
+    df1 = data_spindle('1',dateshift)
+  File "/home/hendrik/hendrik/mypython/vm/vmdata/spindle.py", line 93, in data_spindle
+    df = get_dataframe(data_soup)
+  File "/home/hendrik/hendrik/mypython/vm/vmdata/spindle.py", line 72, in get_dataframe
+    rows= table1.find("tbody").find_all("tr")
+AttributeError: 'NoneType' object has no attribute 'find'
+VM Spindle data (1356, 16) successfully at 2024-02-15 13:42:16
+VM Spindle data (1356, 16) successfully at 2024-02-15 13:48:17
+VM Spindle data (1356, 16) successfully at 2024-02-15 13:54:18
+VM Spindle data (1356, 16) successfully at 2024-02-15 14:00:17
+VM Spindle data (1356, 16) successfully at 2024-02-15 14:06:17
